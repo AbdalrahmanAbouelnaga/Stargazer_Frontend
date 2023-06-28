@@ -1,0 +1,88 @@
+
+
+.header {
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+padding-bottom: 10px; 
+}
+
+.burgerMenu {
+    height: 40px;
+padding-top: 17.5px;
+padding-bottom: 17.5px;
+width: 25%;
+border: none;
+background: unset;
+cursor: pointer;
+box-sizing: content-box;
+float: left;
+}
+
+.burger {
+    width: 23px;
+height: 23px;
+float: left;
+margin: 0 -4px 0 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+
+.burgerMenu .burger span {
+    color: white;
+    background-color: white;
+    height: 1px;
+    display: block;
+}
+
+.burgerMenu .burger span:nth-child(2) {
+    width: 75%
+}
+
+.menuTitle {
+    vertical-align: middle;
+    font-size: 1.3rem;
+}
+
+.header .right {
+    height: 40px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 25%;
+float: right;
+padding-top: 17.5px;
+padding-bottom: 17.5px;
+box-sizing: content-box;
+}
+
+.header .right svg {
+    height: 20px;
+vertical-align: middle;
+}
+
+.header .right .cartCount {
+    background-color: #7C7C7C;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+text-align: center;
+color: white;
+display: inline-block;
+margin-left: 5px;
+}
+
+.logo {
+    float: left;
+width: 50%;
+}
+
+.logo img {
+    display: block;
+margin: 0 auto;
+}
